@@ -17,7 +17,7 @@ const handleCheckbox = () => {
   const specialCharEl = getElement("special");
 
   if (numberEl.checked === true) {
-    charSet = "0123456789";
+    charSet += "0123456789";
   } else {
     charSet = charSet.replace(/0123456789/g, "");
   }
